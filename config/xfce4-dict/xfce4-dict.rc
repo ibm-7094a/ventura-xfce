@@ -1,0 +1,19 @@
+mode_in_use=0
+mode_default=3
+show_panel_entry=false
+panel_entry_size=150
+port=2628
+server=dict.org
+dict=*
+spell_bin=/usr/bin/aspell
+spell_dictionary=en_US
+link_color=rgb(0,0,255)
+phonetic_color=rgb(0,99,0)
+error_color=rgb(128,0,0)
+success_color=rgb(16,112,0)
+geometry=668;323;580;360;0;
+speedreader_font=Sans 32
+speedreader_wpm=400
+speedreader_grouping=1
+speedreader_mark_paragraphs=false
+

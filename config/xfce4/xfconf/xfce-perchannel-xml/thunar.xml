@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="thunar" version="1.0">
+  <property name="last-view" type="string" value="ThunarIconView"/>
+  <property name="last-icon-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_100_PERCENT"/>
+  <property name="last-window-maximized" type="bool" value="false"/>
+  <property name="last-separator-position" type="int" value="170"/>
+  <property name="last-show-hidden" type="bool" value="true"/>
+  <property name="last-window-width" type="int" value="956"/>
+  <property name="last-window-height" type="int" value="1023"/>
+  <property name="last-location-bar" type="string" value="ThunarLocationEntry"/>
+  <property name="hidden-devices" type="array">
+    <value type="string" value="cb459d11-62cd-422c-8996-35128791c17d"/>
+    <value type="string" value="ROOT-A"/>
+    <value type="string" value="45F7-DBF2"/>
+    <value type="string" value="1.8 MB Volume"/>
+    <value type="string" value="7.6 MB Volume"/>
+    <value type="string" value="102 MB Volume"/>
+    <value type="string" value="498 MB Volume"/>
+    <value type="string" value="4.1 KB Volume"/>
+  </property>
+</channel>

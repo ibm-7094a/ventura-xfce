@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=False
+Exec=com.github.libredeb.lightpad
+Name=Launchpad
+Icon=/home/ibm-7094/.icons/custom/30_launchpad.png
+GenericName=opens launchpad
+Path=/home/ibm-7094/
+Comment=A simple, powerul launcher tool for linux systems.

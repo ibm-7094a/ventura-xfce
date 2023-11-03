@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=False
+Exec=ristretto
+Name=Photos
+Icon=/home/ibm-7094/.icons/custom/20_photos.png

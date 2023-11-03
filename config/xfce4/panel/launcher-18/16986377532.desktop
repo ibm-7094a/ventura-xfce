@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Control Panel
+Comment=
+Exec=xfce4-settings-manager
+Icon=/home/ibm-7094/.icons/custom/controlcenter.png
+Path=
+Terminal=false
+StartupNotify=false

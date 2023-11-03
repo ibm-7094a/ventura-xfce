@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Wi-Fi
+Comment=
+Exec=null
+Icon=folder-wifi
+Path=
+Terminal=false
+StartupNotify=false

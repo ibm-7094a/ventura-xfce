@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=False
+Exec=firefox
+Name=Safari
+Icon=/home/lukas/.icons/custom/15_safari.png

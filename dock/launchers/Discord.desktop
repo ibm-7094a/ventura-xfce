@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Discord
+Comment=
+Exec=firefox https://app.discord.com
+Icon=discord
+Path=
+Terminal=false
+StartupNotify=false

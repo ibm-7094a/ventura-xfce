@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Exec=libreoffice --writer
+Name=Pages
+Icon=/home/ibm-7094/.icons/custom/pages.png
+Comment=
+Path=
+StartupNotify=false

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=False
+Exec=thunderbird
+Name=Mail
+Icon=/home/ibm-7094/.icons/custom/29_mail.png

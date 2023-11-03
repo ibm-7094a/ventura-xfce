@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=False
+Exec=firefox https://www.icloud.com/find
+Name=Find My
+Icon=/home/lukas/.icons/custom/38_findmy.png

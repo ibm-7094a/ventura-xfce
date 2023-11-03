@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=False
+Exec=firefox https://duckduckgo.com/?t=ffab&q=japan&ia=web&iaxm=maps&strict_bbox=0
+Name=Maps
+Icon=/home/lukas/.icons/custom/28_maps.png
