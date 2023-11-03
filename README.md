@@ -73,16 +73,27 @@ Press CTRL+ALT+T to initialize a terminal window
 **Navigate to the Dock folder**
 ```
 cd /home/YOUR_USERNAME/ventura-xfce/dock/
-# copy all dock launchers to a hidden folder
-cp launchers/ /home/YOUR_USERNAME/.launchers -r
-# switch to that directory
-cd /home/YOUR_USERNAME/.launchers/
-# replace my username with yours in every launcher (case sensitive)
-sed -i 's/ibm-7094/YOUR_USERNAME/g' *
-# Once that's done, open thunar
-thunar
-# now drag all of those icons into the plank window
 ```
+copy all dock launchers to a hidden folder
+```
+cp launchers/ /home/YOUR_USERNAME/.launchers -r
+```
+switch to that directory
+```
+cd /home/YOUR_USERNAME/.launchers/
+```
+replace my username with yours in every launcher (case sensitive)
+```
+sed -i 's/ibm-7094/YOUR_USERNAME/g' *
+```
+Once that's done, open thunar
+```
+thunar
+```
+now drag all launcher files onto the plank window
 
    [ventura-xfce]: <https://github.com/ibm-7094a/ventura-xfce>
-
+   [WhiteSur-icons]: <https://github.com/vinceliuice/WhiteSur-icon-theme>
+   [WhiteSur-gtk]: <https://github.com/vinceliuice/WhiteSur-gtk-theme>
+   [BigSurIcons]: <https://bigsuricons.webflow.io/?ref=producthunt>
+   [Lightpad]: <https://github.com/libredeb/lightpad>
