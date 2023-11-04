@@ -20,14 +20,6 @@ recreated in the XFCE Desktop Environment.
 - Semi-transparent Applications Menu & Terminal
 - (Optional) Custom Login Page!
 
-
-> "I truly enjoy the appearance of Apple's Mac Operating System,
-> but have found myself unable to enjoy proprietary softwares whose
-> code isn't available to the public!"
-> . .   .
-> -IBM-7094
-> (On a day he was frustrated with his dracula theme & candy icons)
-
 ## Credits
 
 ventura-xfce uses a number of open source projects to work properly:
