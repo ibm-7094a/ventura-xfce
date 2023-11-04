@@ -57,14 +57,27 @@ meson build --prefix=/usr
 cd build
 ninja
 sudo ninja install
-[in the event you choose to remove lightpad: sudo ninja uninstall]
+```
+In the event you choose to remove lightpad: 
+```
+sudo ninja uninstall
 ```
 #### GTK Themes & Icons
-Open your terminal
+##### Installing Themes
+```
+mkdir .themes
+cp ~/ventura-xfce/gtk/gtkthemes/WhiteSur-Light.tar.xz ~/.themes/
+tar -xvf ~/.themes/WhiteSur-Light.tar.xz
+cp ~/ventura-xfce/gtk/gtkthemes/WhiteSur-Dark.tar.xz ~/.themes/
+tar -xvf ~/.themes/WhiteSur-Dark.tar.xz
+```
+##### Installing Icons
 ```
 mkdir .icons
-mkdir .themes
-sudo cp 
+cp ~/ventura-xfce/gtk/icons/01-WhiteSur.tar.xz ~/.icons/
+tar -xvf ~/.icons/01-WhiteSur.tar.xz
+cp ~/ventura-xfce/gtk/icons/custom.tar.xz ~/.icons/
+tar -xvf ~/.icons/custom.tar.xz
 ```
 #### Plank
 From your current launcher of choice, start plank
@@ -72,11 +85,11 @@ Open Window Manager Tweaks, on the upper right, select compositor, & uncheck 'Sh
 Press CTRL+ALT+T to initialize a terminal window
 **Navigate to the Dock folder**
 ```
-cd /home/YOUR_USERNAME/ventura-xfce/dock/
+cd ~/ventura-xfce/dock/
 ```
 copy all dock launchers to a hidden folder
 ```
-cp launchers/ /home/YOUR_USERNAME/.launchers -r
+cp launchers/ ~/.launchers -r
 ```
 switch to that directory
 ```
@@ -91,6 +104,27 @@ Once that's done, open thunar
 thunar
 ```
 now drag all launcher files onto the plank window
+
+#### Wallpapers
+```
+cp ~/ventura-xfce/wallpapers/ ~/.wallpapers
+```
+#### Panel
+```
+sudo cp ~/ventura-xfce/config/xfce4/ ~/.config/xfce4 -r
+sudo cp ~/ventura-xfce/config/xfce4-dict/ ~/.config/xfce4-dict -r
+```
+
+#### DEBLOAT
+All of the above was written under the assumption that you want to keep copies of everything.
+If this is not the case, execute the code below.
+```
+rm -rf ~/ventura-xfce
+rm -rf ~/.themes/WhiteSur-Light.tar.xz
+rm -rf ~/.themes/WhiteSur-Dark.tar.xz
+rm -rf ~/.icons/01-WhiteSur.tar.xz
+rm -rf ~/.icons/custom.tar.xz
+```
 
    [ventura-xfce]: <https://github.com/ibm-7094a/ventura-xfce>
    [WhiteSur-icons]: <https://github.com/vinceliuice/WhiteSur-icon-theme>
