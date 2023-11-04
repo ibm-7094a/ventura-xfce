@@ -2,6 +2,8 @@
 ## _MacOS Ventura in XFCE_
 #### _A Simple Recreation For Apple Fanatic Developers_
 
+![ventura-xfce](https://raw.githubusercontent.com/ibm-7094a/ventura-xfce/main/ventura-xfce.png)
+
 Ventura-XFCE is my take on the beautiful MacOS desktop
 recreated in the XFCE Desktop Environment.
 **It should be noted that as of latest commit, the project only officially supports debian-based distros**
