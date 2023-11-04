@@ -79,6 +79,11 @@ tar -xvf ~/.icons/01-WhiteSur.tar.xz
 cp ~/ventura-xfce/gtk/icons/custom.tar.xz ~/.icons/
 tar -xvf ~/.icons/custom.tar.xz
 ```
+##### Installing Cursor Theme
+```
+cp ~/ventura-xfce/cursors/WhiteSur-cursors.tar.xz ~/.icons/
+tar -xvf ~/.icons/WhiteSur-cursors.tar.xz
+```
 #### Plank
 From your current launcher of choice, start plank
 Open Window Manager Tweaks, on the upper right, select compositor, & uncheck 'Show shadows under dock windows'
@@ -109,11 +114,14 @@ now drag all launcher files onto the plank window
 ```
 cp ~/ventura-xfce/wallpapers/ ~/.wallpapers
 ```
+If wallpapers do not appear on login, right click on desktop & select
+Desktop Settings > Background > Folder > Other > /home/YOUR_USERNAME/.wallpapers/
 #### Panel
 ```
 sudo cp ~/ventura-xfce/config/xfce4/ ~/.config/xfce4 -r
 sudo cp ~/ventura-xfce/config/xfce4-dict/ ~/.config/xfce4-dict -r
 ```
+## To Finish, Restart Your Computer & Log Back Into XFCE
 
 #### DEBLOAT
 All of the above was written under the assumption that you want to keep copies of everything.
@@ -124,6 +132,7 @@ rm -rf ~/.themes/WhiteSur-Light.tar.xz
 rm -rf ~/.themes/WhiteSur-Dark.tar.xz
 rm -rf ~/.icons/01-WhiteSur.tar.xz
 rm -rf ~/.icons/custom.tar.xz
+rm -rf ~/.icons/WhiteSur-cursors.tar.xz
 ```
 
    [ventura-xfce]: <https://github.com/ibm-7094a/ventura-xfce>
