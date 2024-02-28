@@ -5,7 +5,8 @@
 ![ventura-xfce](https://raw.githubusercontent.com/ibm-7094a/ventura-xfce/main/ventura-xfce.png)
 
 Ventura-XFCE is my take on the beautiful MacOS desktop
-recreated in the XFCE Desktop Environment.
+recreated in the XFCE Desktop Environment, designed to help people
+making the switch from Apple's MacOS to Open-Source Distributions.
 **It should be noted that as of latest commit, the project only officially supports debian-based distros**
 
 - It uses about 600 Megabytes of RAM on it's lowest settings
